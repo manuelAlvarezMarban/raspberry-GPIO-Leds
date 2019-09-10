@@ -2,7 +2,7 @@
 Raspberry GPIO simple led effects.
 
 Light effects controlling Raspberry GPIO.
-Execution under Raspbian.
+Execution under Raspbian & python v2.
 
 - fantastic_car (el coche fantastico):
 
