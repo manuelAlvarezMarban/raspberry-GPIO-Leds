@@ -87,11 +87,11 @@ if __name__ ==  '__main__':
 	except:
 		print "Error in setup config."
 		sys.exit(-1)
-
-    try:
+	
+	try:
 		GPIO.add_event_detect(LedPinPulsador,GPIO.RISING)
-        loop()
+		loop()
 	except KeyboardInterrupt:  
-        # 'Ctrl+C' to exit.
-        destroy()
+		# 'Ctrl+C' to exit.
+		destroy()
 
