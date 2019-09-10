@@ -37,7 +37,7 @@ def loop():
 		if GPIO.event_detected(LedPinPulsador):
 			print "El Coche Fantastico"
 
-		GPIO.output(LedPin0, GPIO.HIGH)
+	GPIO.output(LedPin0, GPIO.HIGH)
         time.sleep(0.1)
         GPIO.output(LedPin1, GPIO.HIGH)  
         time.sleep(0.1)
