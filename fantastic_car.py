@@ -76,9 +76,8 @@ def destroy ():
 	'''
 	Clean GPI.
 	'''
-
-    GPIO.output(chan_list, GPIO.LOW)            
-    GPIO.cleanup()
+	GPIO.output(chan_list, GPIO.LOW)            
+	GPIO.cleanup()
 	
 	
 if __name__ ==  '__main__':   
